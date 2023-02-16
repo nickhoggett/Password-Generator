@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generate a <br><span class="light-green">random password</span></h1>
+        <p>Never use an insecure password again:</p>
+        <div class="btn-container">
+            <button id="gen-password">Generate Passwords</button>
+            <button class="change-length disabled" id="plus-length">+</button>
+            <div id="length">15</div>
+            <button class="change-length" id="minus-length">-</button>
+        </div>
+        <hr class="light-blue">
+        <div class="password-container">
+            <p class="output light-green" id="password-one"></p>
+            <p class="output light-green" id="password-two"></p>
+        </div>
+        <div class="copy-container">
+            <button class="copy-btn" id="copy-pwOne">Copy above</button>
+            <button class="copy-btn" id="copy-pwTwo">Copy above</button>
+        </div>
+        <div class="remove-container">
+            <button class="copy-btn" id="symbols">Remove Symbols</button>
+            <button class="copy-btn" id="numbers">Remove Numbers</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
